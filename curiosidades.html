@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosCuriosidades.css">   
+</head>
+<body>
+  <header>
+    <article>
+      <h1 class = "titulo"> <b>Tabla periódica de los elementos</b></h1>
+    </article>
+
+    <article class = "busca">
+        <p><b> En esta pagina, hay una científica.</b></p>
+        <p><b>BUSCALA</b></p>
+    </article>
+
+    <nav class = "opciones">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contacto.html" target = "_blank">Contacto</a></li>
+        </ul>
+    </nav>
+
+  </header>
+
+  <section >
+    <!--tres opcionespara presentar artículos: con imagen hipervículo, con información oculta e información para ocultar -->
+    <article class ="uno">
+      <p class = "mujer"><b>¿Conoces a las grandes científicas que han contribuído a descubrir los elementos?</b></p>
+      <p class = "mujer"><b>¡¡¡Anímate a descubrirlas!!!!</b></p>
+      <a href = "https://www.esteve.org/publicaciones/las-mujeres-de-la-tabla-periodica/#:~:text=Las%20dos%20Marias%2C%20Lise%2C%20Ida,casi%20todas%20son%20grandes%20desconocidas.">
+       <img src="img/sigueLeyendo.png" size = "150 px "alt ="mujer">
+    </a>
+    </article>
+   
+    <article class ="uno">
+      <details>
+      <summary><p class = "jota">¿Sabes cual es la única letra del alfabeto que no aparece en la tabla periódica?.</p>
+        <p class = "jota">Pincha aquí para descubrilo</p></summary>
+        <p>Es la 'j'. Los nombres de la tabla vienen del latín y la 'j' no existe en latín.</p> 
+        <p>Este artículo es muy interesante</p>>
+        <a href = "https://www.terra.com.mx/tendencias/2020/8/24/cual-es-la-unica-letra-que-no-aparece-en-la-tabla-periodica-3895.html">
+        <img src = "img/jota.png" alt = "jota">
+      </details>
+    </article>
+
+    <article class ="uno">
+      <details open> <!--aparece abierto pero se puede cerrar-->
+      <summary><p class= "helio">¿Sabes qué observaba C. Janssen cuando descubrio el helio?</p>
+        <p class = "helio"> ¡¡PINCHAME!! </p></summary>
+        <p> Estaba mirando un eclipse y ¿Sabes en qué se fijo?</p>
+        <a href = "https://principia.io/2016/08/18/helio-un-titan-de-la-quimica.IjM3NiI/#:~:text=El%2018%20de%20agosto%20de,amarilla%20en%20el%20espectro%20solar.">
+        <img src = "img/sigueLeyendo.png" alt = "helio">
+      </details>
+    </article>  
+
+  </section>
+
+  <aside>
+    <article > <!--hipervínculo a juego-->
+      <a href = "https://www.educaplay.com/learning-resources/5740889-elementos_quimicos.html">
+      <img src = "img/juego.png" alt = "juego">
+      </a>
+    </article><!--imagen que cambia si se pone el ratón encima-->
+      <img src="img/mujer.jpg" width="250px" align="right" alt = "mujer"
+        onmouseover="this.src='img/mujer2.png'" onmouseout="this.src= 'img/mujer.jpg'"/>
+  </aside>
+
+
+  <footer class="pie">
+    <p>“Nada en la vida es para ser temido, es sólo para ser comprendido. Ahora es el momento de entender más, de modo que podamos temer menos”</p>
+    <p>Marie Curie (1867 – 1934) fue la primera mujer en ser galardonado con el Premio Nobel y aquello fue en 1903 por sus contribuciones a la física. 
+      Después, en 1911 volvió a recibir dicho premio por su contribución a la química. </p>
+  </footer>
+
+</body>
+
+</html>
